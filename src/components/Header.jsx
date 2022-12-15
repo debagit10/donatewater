@@ -3,9 +3,9 @@
 export default function Header(){
     return (
         <>
-         <div className="flex justify-center content-center items-center">
+         <div className="flex flex-col justify-center content-center">
             <img 
-              className=" "
+              className="self-center"
               src="images/donatewater3-logo.png" alt="donate water logo"
               />
           </div>
