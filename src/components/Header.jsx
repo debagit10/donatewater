@@ -3,8 +3,12 @@
 export default function Header(){
     return (
         <>
-            <img src="images/donatewater-logo.jpg" alt="donate water logo"/>
-            <h1 className="text-blue-400">Hey you</h1>
+         <div className="flex justify-center content-center items-center">
+            <img 
+              className=" "
+              src="images/donatewater3-logo.png" alt="donate water logo"
+              />
+          </div>
         </>
     )
 }
