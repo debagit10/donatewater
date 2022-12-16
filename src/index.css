@@ -8,6 +8,9 @@ body{
     background: #76C0D0;
 
 }
+p#problem-statement{
+    font-family: 'Rockwell';
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

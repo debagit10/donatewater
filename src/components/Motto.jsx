@@ -3,7 +3,7 @@ export default function Motto(){
         <>
             <div className="relative flex justify-center">
                 <img 
-                  className="sm:w-[374px] h-[208px] "
+                  className="sm:w-[380px] h-[208px] "
                   src="images/front-img.png" alt="main-image-for-motto"
 
                   />
@@ -16,6 +16,7 @@ export default function Motto(){
                         Assessing Women's Vulnerability To Climate Change Effects On Natural Resources
                     </p>
                 </div>
+              
             </div>
         </>
     )
