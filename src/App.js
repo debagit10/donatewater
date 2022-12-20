@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="p-5">
        <Header />
        <Motto />
        <ProbStatement />
