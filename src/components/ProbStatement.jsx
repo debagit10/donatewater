@@ -9,6 +9,7 @@ export default function ProbStatement(){
                     They rely solely on self-water supply (free source) such as rivers, perennial streams, 
                     water ponds and unprotected wells which is susceptible to water borne diseases.
                 </p>
+                
                 </div>
         </>
     )
