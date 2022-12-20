@@ -1,9 +1,9 @@
 export default function Motto(){
     return (
         <>
-            <div className="relative flex justify-center">
+            <div className="relative flex ">
                 <img 
-                  className="sm:w-[380px] h-[208px] "
+                  className="sm:w-[380px] h-[208px] justify-center"
                   src="images/front-img.png" alt="main-image-for-motto"
 
                   />
