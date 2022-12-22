@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className="p-5">
+    <div className="p-5 flex flex-col md:justify-center md:items-center">
        <Header />
        <Motto />
        <ProbStatement />

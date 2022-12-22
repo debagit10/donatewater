@@ -3,7 +3,7 @@ import { Slide } from 'react-slideshow-image';
 
 export default function SlidePage(){
     return (
-        <div className="m-6 flex justify-center  flex-col">
+        <div className="m-6 flex justify-center  flex-col md:w-1/3  ">
         <Slide >
            <img 
              className="w-[320px] h-[200px]"

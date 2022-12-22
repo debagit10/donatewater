@@ -1,13 +1,13 @@
 export default function Motto(){
     return (
         <>
-            <div className="relative flex md:flex-col md:justify-center md:items-center">
+            <div className="relative flex-1 flex-wrap flex md:flex-col items-center ">
                 <img 
-                  className="sm:w-[380px] h-[208px] justify-center md:w-[550px] md:h-[350px]"
+                  className="sm:w-[380px] h-[208px] justify-center md:w-screen md:h-auto"
                   src="images/front-img.png" alt="main-image-for-motto"
 
                   />
-                <div className="absolute justify-start  top-1 mt-8 w-2/3 p-7 " id="md-img">
+                <div className="absolute  md:w-1/3 md:justify-items-start top-1 mt-8 sm:w-2/3 p-7  " id="md-img">
                     <h1
                       className="font-bold text-xl"
                     >
