@@ -4,7 +4,7 @@ import Motto from './components/Motto';
 import ProbStatement from './components/ProbStatement'
 import SlidePage from './components/SlidePage'
 import Footer from './components/Footer'
-import Navbar from './components/Navbar'
+import NavBar from './components/Navbar'
 
 export default function App() {
   return (
