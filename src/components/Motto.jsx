@@ -3,7 +3,7 @@ export default function Motto(){
         <>
             <div className="relative flex-1 flex-wrap flex md:flex-col items-center ">
                 <img 
-                  className="sm:w-[380px] h-[208px] justify-center md:w-screen md:h-auto"
+                  className="sm:w-[380px] h-[208px] justify-center md:w-screen md:mx-0 md:h-1/2"
                   src="images/front-img.png" alt="main-image-for-motto"
 
                   />
