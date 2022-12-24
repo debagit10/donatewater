@@ -1,7 +1,7 @@
 export default function ProbStatement(){
     return (
         <>
-         <div className="flex md:flex-row sm:flex-col justify-center md:items-center mb-7 mt-7">
+         <div className="flex md:flex-row sm:flex-col flex-wrap justify-center md:items-center mb-7 mt-7">
               <p 
                   className="font-normal text-sm w-80 md:text-md m-4" 
                   id="problem-statement">
@@ -9,7 +9,7 @@ export default function ProbStatement(){
                     They rely solely on self-water supply (free source) such as rivers, perennial streams, 
                     water ponds and unprotected wells which is susceptible to water borne diseases.
                 
-                <small className="self-end mb-7 md:items-center">
+                <small className="self-end mb-7 md:items-center text-red-900">
                    <a href="#">SOURCE: journal of water resource and protection</a>
                 </small>
                 </p>
