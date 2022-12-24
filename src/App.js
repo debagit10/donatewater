@@ -8,7 +8,7 @@ import NavBar from './components/Navbar'
 
 export default function App() {
   return (
-    <div className="p-5 flex flex-col md:justify-center md:items-center">
+    <div className="p-5 flex flex-col md:justify-center md:items-center overflow-hidden">
        <NavBar />
        <Header />
        <Motto />

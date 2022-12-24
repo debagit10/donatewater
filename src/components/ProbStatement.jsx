@@ -1,9 +1,9 @@
 export default function ProbStatement(){
     return (
         <>
-         <div className="flex md:flex-row sm:flex-col justify-center md:items-center mt-4">
+         <div className="flex md:flex-row sm:flex-col justify-center md:items-center mb-7 mt-7">
               <p 
-                  className="font-normal text-sm w-80 md:text-md " 
+                  className="font-normal text-sm w-80 md:text-md m-4" 
                   id="problem-statement">
                    Over 70% of households in rural communities do not have access to improved water supply.
                     They rely solely on self-water supply (free source) such as rivers, perennial streams, 
@@ -15,7 +15,7 @@ export default function ProbStatement(){
                 </p>
                 <div className="w-1/4">
                     <h3 className="font-bold">vision</h3>
-                    <p>
+                    <p className="m-4">
                         To ensure that clean water is accessible in every rural community in Nigeria,
                         we aim to eliminate the need for people, especially women and children, to travel
                         long distances in search of water and bear the burden of surviving the impacts of climate change in Nigeria and West Africa.
@@ -23,7 +23,7 @@ export default function ProbStatement(){
                 </div>
                 <div className="w-1/4">
                     <h3 className="font-bold">Mission</h3>
-                    <p>
+                    <p className="m-4">
                         Our goal is to bridge the gap between communities, individuals, 
                         and government and local and international agencies in order to improve access to water resources.
                         By using data, statistics, and human and citizen science, we hope to help excluded populations overcome the impacts and effects of climate change and gender exclusion. 

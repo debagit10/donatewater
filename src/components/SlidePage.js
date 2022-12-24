@@ -3,15 +3,15 @@ import { Slide } from 'react-slideshow-image';
 
 export default function SlidePage(){
     return (
-        <div className="m-6 flex justify-center  flex-col md:w-1/3  ">
+        <div className="m-6 flex justify-center mt-7 flex-col md:w-1/3  ">
         <Slide >
            <img 
-             className="w-[320px] h-[200px]"
+             className="w-[320px] h-[200px] md:w-[500px] md:h-[350px]"
              src="images/crowd4sdg.png" 
              alt='image of donatewater team from the crowd4SDG program'
              /> 
            <img 
-             className="w-[320px] h-[200px]"
+             className="w-[320px] h-[200px]  md:w-[500px] md:h-[350px]"
              src="images/DonateWater-project.jpg"
               alt="donate water team" />
         </Slide>
