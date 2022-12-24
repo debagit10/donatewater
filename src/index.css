@@ -6,7 +6,7 @@ body, html{
     padding: 0;
     height: 100vh;
     background: #76c0d0;
-
+    font-family: 'Open Sans', sans-serif;
 }
 p#problem-statement{
     font-family: 'Rockwell';
