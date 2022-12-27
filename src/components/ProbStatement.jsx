@@ -1,9 +1,9 @@
 export default function ProbStatement(){
     return (
         <>
-         <div className="flex md:flex-row sm:flex-col flex-wrap justify-center md:items-center mb-7 mt-7">
-              <p 
-                  className="font-normal text-sm w-80 md:text-md m-5" 
+         <div className="flex md:flex-row sm:flex-col content-center sm:w-1/4  justify-center md:items-center mb-7 mt-7">
+            <div className="font-normal text-sm w-80 md:text-md m-5">
+            <p 
                   id="problem-statement">
                    Over 70% of households in rural communities do not have access to improved water supply.
                     They rely solely on self-water supply (free source) such as rivers, perennial streams, 
@@ -13,6 +13,7 @@ export default function ProbStatement(){
                    <a href="#">SOURCE: journal of water resource and protection</a>
                 </small>
                 </p>
+            </div>
                 <div className="w-1/4 mt-5 m-4 ">
                     <h3 className="font-bold text-lg">Vision</h3>
                     <p className="mt-4">

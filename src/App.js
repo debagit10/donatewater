@@ -8,11 +8,11 @@ import NavBar from './components/Navbar'
 import Slogan from './components/Slogan'
 export default function App() {
   return (
-    <div className="p-5 flex flex-col md:justify-center md:items-center overflow-hidden">
+    <div className="p-5 sm:m-[-0] flex flex-col md:justify-center md:items-center overflow-hidden">
        <NavBar />
        {/*<Header />*/}
        <Motto />
-       <Slogan />
+       {/* {<Slogan />} */}
        <ProbStatement />
        <SlidePage />
        <Footer />
