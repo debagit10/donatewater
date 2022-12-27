@@ -13,7 +13,7 @@ export default function ProbStatement(){
                    <a href="#">SOURCE: journal of water resource and protection</a>
                 </small>
                 </p>
-                <div className="w-1/4 mt-5 m-4">
+                <div className="w-1/4 mt-5 m-4 ">
                     <h3 className="font-bold text-lg">Vision</h3>
                     <p className="mt-4">
                         To ensure that clean water is accessible in every rural community in Nigeria,

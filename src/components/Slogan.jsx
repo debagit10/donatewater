@@ -1,7 +1,7 @@
 
 export default function Slogan(){
     return(<>
-         <div className="absolute  md:w-1/3 md:h-1/3 left-0 bottom-0  mt-8 sm:w-2/3 p-7  " id="md-img">
+         <div className="absolute   md:w-1/2 md:h-1/3  md:bottom-0  mt-15 sm:w-2/3 p-7  " id="md-img">
                     <h1
                       className="font-bold text-xl"
                     >
