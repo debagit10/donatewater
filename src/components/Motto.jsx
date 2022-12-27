@@ -11,8 +11,11 @@ export default function Motto(){
                     <h1
                       className="font-bold text-xl"
                     >
-                   <span className="text-[#cd0046]" id="dw-title">Donate</span><span className="text-[#2c92d5]" id="dw-title">Water</span></h1>
-                    <p className="text-white text-lg " id="dw-p">
+                     <img 
+                                className="self-center"
+                                src="images/donatewater3-logo.png" alt="donate water logo"
+                            /></h1>
+                    <p className="text-slate-50  text-xl font-semibold" id="dw-p">
                         Assessing Women's Vulnerability To Climate Change Effects On Natural Resources
                     </p>
                 </div>

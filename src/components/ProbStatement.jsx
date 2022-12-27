@@ -1,8 +1,8 @@
 export default function ProbStatement(){
     return (
         <>
-         <div className="flex md:flex-row sm:flex-col content-center sm:w-1/4  justify-center md:items-center mb-7 mt-7">
-            <div className="font-normal text-sm w-80 md:text-md m-5">
+         <div className="flex sm:flex-row flex-col w-9/12 justify-center content-center self-center items-center leading-relaxed mb-7 mt-7">
+            <div className="font-normal text-sm p-3 md:text-md m-5 sm:w-2/5 ">
             <p 
                   id="problem-statement">
                    Over 70% of households in rural communities do not have access to improved water supply.
@@ -14,7 +14,7 @@ export default function ProbStatement(){
                 </small>
                 </p>
             </div>
-                <div className="w-1/4 mt-5 m-4 ">
+                <div className=" mt-5 m-4 p-3 sm:w-2/5 ">
                     <h3 className="font-bold text-lg">Vision</h3>
                     <p className="mt-4">
                         To ensure that clean water is accessible in every rural community in Nigeria,
@@ -22,7 +22,7 @@ export default function ProbStatement(){
                         long distances in search of water and bear the burden of surviving the impacts of climate change in Nigeria and West Africa.
                     </p>
                 </div>
-                <div className="w-1/3 mt-5 m-4">
+                <div className="md:w-3/5 p-3 mt-5 m-4 sm:mt-2 ">
                     <h3 className="font-bold mt-12 text-lg">Mission</h3>
                     <p className="mt-4 ">
                         Our goal is to bridge the gap between communities, individuals, 
