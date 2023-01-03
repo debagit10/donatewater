@@ -1,10 +1,12 @@
 import { useState } from "react";
+import Contact from './components/Contact'
+import {Link, Switch, Route} from "react-router-dom"
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-screen bg-[#76c0d0] top-1 drop-shadow-2xl ">
+        <nav className="w-screen bg-[#76c0d0] shadow-xl top-1 drop-shadow-2xl ">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -68,10 +70,10 @@ export default function NavBar() {
                                 <a href="javascript:void(0)">Blog</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">About US</a>
+                                <a href="javascript:void(0)">About us</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact US</a>
+                                <a href="javascript:void(0)">Contact us</a>
                             </li>
                         </ul>
 
@@ -80,13 +82,13 @@ export default function NavBar() {
                         href="javascript:void(0)"
                         className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
-                        Sign in
+                        Contact us 
                     </a>
                     <a
                         href="javascript:void(0)"
                         className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
                     >
-                        Sign up
+                        Participate
                     </a>
                 </div>
                     </div>
@@ -96,13 +98,13 @@ export default function NavBar() {
                         href="javascript:void(0)"
                         className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
-                        Sign in
+                       Contact us 
                     </a>
                     <a
                         href="javascript:void(0)"
                         className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
                     >
-                        Sign up
+                        Participate
                     </a>
                 </div>
             </div>
