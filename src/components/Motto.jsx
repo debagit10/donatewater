@@ -12,8 +12,8 @@ export default function Motto(){
                       className="font-bold text-xl"
                     >
                      <img 
-                                className="self-center"
-                                src="images/donatewater3-logo.png" alt="donate water logo"
+                                className="self-center w-1/2 lg:w-56 sm:w-2/4 rounded-lg m-3 "
+                                src="images/DonateWater-logo.jpg" alt="donate water logo"
                             /></h1>
                     <p className="text-slate-50  text-xl font-semibold" id="dw-p">
                         Assessing Women's Vulnerability To Climate Change Effects On Natural Resources

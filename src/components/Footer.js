@@ -8,8 +8,8 @@ export default function Footer(){
                         className="w-[25px] ml-2 p-2 h-[10px] items-center shadow-xl rounded-full bg-[#1d9cb3]">C</span>
                     <span className="ml-2">2022</span>
                     <img 
-                    className="self-center ml-5 shadow-md w-32 "
-                    src="images/donatewater3-logo.png" alt="donate water logo"
+                    className="self-center ml-5 shadow-md w-32 lg:w-12/10 sm:w-2/4 rounded-lg"
+                    src="images/DonateWater-logo.jpg" alt="donate water logo"
                     />
             </div>
             <div className="justify-self-end flex sm:flex-1">

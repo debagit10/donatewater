@@ -13,8 +13,8 @@ export default function NavBar() {
                         <a href="javascript:void(0)">
                             <h2 className="text-2xl font-bold text-white">
                             <img 
-                                className="self-center"
-                                src="images/donatewater3-logo.png" alt="donate water logo"
+                                className="self-center w-1/2 lg:w-56 sm:w-2/4 rounded-lg"
+                                src="images/DonateWater-logo.jpg" alt="donate water logo"
                             />
                             </h2>
                         </a>
