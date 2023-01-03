@@ -2,20 +2,20 @@
 export default function Contact(){
     return (
         <>
-        <section id="contact" className="relative w-full min-h-screen bg-black text-red-500">
+        <section id="contact" className="relative w-full min-h-screen bg-white text-[#cd0046]">
         <h1 className="text-4xl p-4 font-bold tracking-wide">
-            Contact
+            Contact Us 
         </h1>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-800 h-32 w-full"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#2c9fb9] h-32 w-full"></div>
         
        
         <div className="relative p-5 lg:px-20 flex flex-col md:flex-row items-center justify-center">
         
            
             <div className="w-full md:w-1/2 p-5 md:px-0 mx-5">
-            <div className="bg-gray-900 border border-red-500 w-full lg:w-1/2 h-full p-5 pt-8">
+            <div className="bg-[#76c0d0] border border-[#cd0046] w-full lg:w-1/2 h-full p-5 pt-8">
                 <h3 className="text-2xl font-semibold mb-5">
-                My Social Media
+                 Social Media
                 </h3>
                
                 <div className="flex flex-col gap-3">
@@ -48,7 +48,7 @@ export default function Contact(){
             </div>
         
           
-            <form action="#" className="w-full md:w-1/2 border border-red-500 p-6 bg-gray-900">
+            <form action="#" className="w-full md:w-1/2 border border-red-500 p-6 bg-white">
             <h2 className="text-2xl pb-3 font-semibold">
                 Send Message
             </h2>
@@ -57,7 +57,7 @@ export default function Contact(){
                 <label for="name">Name</label>
                 <input 
                     type="text" id="name" 
-                    className="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
+                    className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                     autocomplete="off"
                 />
                 </div>
@@ -65,7 +65,7 @@ export default function Contact(){
                 <label for="email">Email</label>
                 <input 
                     type="text" id="email" 
-                    className="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
+                    className="px-3 py-2 bg-[#a7e0ec] border border-gray-900  focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                     autocomplete="off"
                 />
                 </div>
@@ -73,12 +73,12 @@ export default function Contact(){
                 <label for="message">Message</label>
                 <textarea 
                     rows="4" id="message" 
-                    className="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
+                    className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                 ></textarea>
                 </div>
             </div>
             <div className="w-full pt-3">
-                <button type="submit" className="w-full bg-gray-900 border border-red-500 px-4 py-2 transition duration-50 focus:outline-none font-semibold hover:bg-red-500 hover:text-white text-xl cursor-pointer">
+                <button type="submit" className="w-full bg-[#3aadc4] border border-red-500 px-4 py-2 transition duration-50 focus:outline-none font-semibold hover:bg-red-500 hover:text-white text-xl cursor-pointer">
                 Send
                 </button>
             </div>

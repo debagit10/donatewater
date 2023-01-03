@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Contact from './components/Contact'
+//import Contact from './components/Contact'
 import {Link, Switch, Route} from "react-router-dom"
 
 export default function NavBar() {
@@ -64,16 +64,23 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Home</a>
+                            <Link to="/">Home</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Blog</a>
+                            <Link to="/Blog">Blog</Link>
+                                
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">About us</a>
+                            <Link to="/about">About us</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact us</a>
+                            {/* *<Switch>
+                                <Route path="/contact">
+                                 <Contact />
+                                </Route>
+                            </Switch> */}
+                            <Link to="/contact">Contact us</Link>
+                                
                             </li>
                         </ul>
 
