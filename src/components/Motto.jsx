@@ -5,7 +5,7 @@ export default function Motto(){
                 <img 
                   className=" h-[208px]  md:bg-cover w-screen  md:h-1/2 "
                   src="images/front-img.png" alt="main-image-for-motto"
-
+                   id='bg-image'
                   />
                <div className="absolute md:w-1/2 md:h-1/3    md:mt-15 sm:w-2/3   bottom-0 left-0  p-7 " id="md-img">
                     <h1

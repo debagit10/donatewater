@@ -17,7 +17,7 @@ export default function SlidePage(){
         </Slide>
          <div className='self-center mt-9'>
          <button 
-           className="mb-20 mt-10 w-[138px] h-[41px] text-xl font-bold bg-[#C4C4C4] text-black"
+           className="mb-20 mt-10 w-[138px] h-[41px] text-xl font-bold bg-[#cd0046] text-white"
            type='submit'>Participate
            </button>
          </div>
