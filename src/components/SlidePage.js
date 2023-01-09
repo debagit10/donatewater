@@ -1,5 +1,6 @@
 import 'react-slideshow-image/dist/styles.css'
 import { Slide } from 'react-slideshow-image';
+import {Link, Switch, Route} from "react-router-dom"
 
 export default function SlidePage(){
     return (
@@ -18,7 +19,8 @@ export default function SlidePage(){
          <div className='self-center mt-9'>
          <button 
            className="mb-20 mt-10 w-[138px] h-[41px] text-xl font-bold bg-[#cd0046] text-white"
-           type='submit'>Participate
+           type='submit'>
+           <Link to="/participate">Participate</Link>
            </button>
          </div>
         </div>

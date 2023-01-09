@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import Contact from './components/Contact'
+
 import {Link, Switch, Route} from "react-router-dom"
 
 export default function NavBar() {
@@ -64,57 +64,51 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
-                            <Link to="/">Home</Link>
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                            <Link to="/Blog">Blog</Link>
+                                <Link to="/Blog">Blog</Link>
+                            </li>
+                            <li className="text-white hover:text-indigo-200">
+                                <Link to="/Contact">Contact</Link>
+                            </li>
                                 
-                            </li>
-                            <li className="text-white hover:text-indigo-200">
-                            <Link to="/about">About us</Link>
-                            </li>
-                            <li className="text-white hover:text-indigo-200">
-                            {/* *<Switch>
-                                <Route path="/contact">
-                                 <Contact />
-                                </Route>
-                            </Switch> */}
-                            <Link to="/contact">Contact us</Link>
-                                
-                            </li>
                         </ul>
 
-                        <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                    <a
-                        href="javascript:void(0)"
-                        className="inline-block w-full px-4 py-2 text-center text-white bg-[#cd0046] rounded-md shadow hover:bg-gray-800"
-                    >
-                        Contact us 
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                    >
-                        Participate
-                    </a>
-                </div>
+                        <ul className="mt-3 space-y-2 lg:hidden md:inline-block">
+                            <li
+                                className="inline-block w-full px-4 py-2 text-center text-white bg-[#cd0046] rounded-md shadow hover:bg-gray-800">
+                            <Link to="/Contact">Contact us</Link>
+                            
+                            </li>
+                            <li
+                                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                            >
+                            <Link to="/participate">Participate</Link>
+                                
+                            </li>
+                       </ul>
                     </div>
                 </div>
-                <div className="hidden space-x-2 md:inline-block">
+                <ul className="hidden space-x-2 md:inline-block">
                     <a
                         href="javascript:void(0)"
                         className="px-4 py-2 text-white bg-[#cd0046] rounded-md shadow hover:bg-[#f15a8d]"
                     >
-                       Contact us 
+                      
+                         <Link to="/Contact">Contact</Link>
+                        
+                        
                     </a>
                     <a
                         href="javascript:void(0)"
                         className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
                     >
-                        Participate
+                        <Link to="/participate">Participate</Link>
                     </a>
-                </div>
+                </ul>
             </div>
+            
         </nav>
     );
 }
