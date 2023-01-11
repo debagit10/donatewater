@@ -18,7 +18,7 @@ export default function SlidePage(){
         </Slide>
          <div className='self-center mt-9'>
          <button 
-           className="mb-20 mt-10 w-[138px] h-[41px] text-xl font-bold bg-[#cd0046] text-white"
+           className="mb-20 mt-10 w-[138px] h-[41px] text-xl hover:bg-[#f86184] font-bold bg-[#cd0046] text-white"
            type='submit'>
            <Link to="/participate">Participate</Link>
            </button>
