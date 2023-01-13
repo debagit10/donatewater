@@ -15,8 +15,8 @@ export default function Footer(){
                     />
             
                     <img className="mx-1 md:w-14 w-10 bg-cover" src="images/unicef_logo.png" alt="unicef logo"/>
-                    <img className="mx-1 md:w-20 w-10 bg-cover" src="images/UN_logo.png" alt="UN logo"/>
-                    <img className="mx-1 mr-5" src="images/waid-img.jpg" alt="WAID logo"/>
+                    <img className="mx-1 md:w-24 w-10 bg-cover" src="images/UN_logo.png" alt="UN logo"/>
+                    <img className="mx-1 mr-5" src="images/waid.png" alt="WAID logo"/>
             
                 
         </footer>
