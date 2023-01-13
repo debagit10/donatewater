@@ -10,7 +10,7 @@ export default function ProbStatement(){
                     water ponds and unprotected wells which is susceptible to water borne diseases.
                 
                 <small className="self-end mb-7 md:items-center text-red-900">
-                   <a href="#">SOURCE: journal of water resource and protection</a>
+                   <a href="https://www.researchgate.net/publication/273745007_Water_Supply_Dilemma_in_Nigerian_Rural_Communities_Looking_Towards_the_Sky_for_an_Answer#:~:text=Over%2070%25%20of%20households%20in,%2C%20dysentery%2C%20malaria%20parasites%20etc.">SOURCE: journal of water resource and protection</a>
                 </small>
                 </p>
             </div>

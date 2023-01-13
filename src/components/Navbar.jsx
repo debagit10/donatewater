@@ -64,13 +64,13 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
-                                <Link to="/">Home</Link>
+                                <Link to="/">Who we are</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <Link to="/Blog">Blog</Link>
+                                <Link to="/Blog">What we do</Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <Link to="/Contact">Contact</Link>
+                                <Link to="/Contact">Contact us</Link>
                             </li>
                                 
                         </ul>
