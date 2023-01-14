@@ -1,7 +1,7 @@
 export default function Motto(){
     return (
         <>
-            <div className="relative w-screen mt-0 ">
+            <div className="relative sm:w-screen w-full  mt-0 ">
                 <img 
                   className=" h-[208px]  md:bg-cover w-screen  md:h-1/2 "
                   src="images/front-img.png" alt="main-image-for-motto"
