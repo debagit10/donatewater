@@ -94,8 +94,8 @@ export default function Contact(){
                     <input 
                         type="text"
                          id="name" 
-                        className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
-                        autocomplete="off"
+                         className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
+                         autoComplete="off"
                     />
                 </div>
                 <div className="flex flex-col mb-3">
@@ -104,7 +104,7 @@ export default function Contact(){
                          type="text"
                          id="email" 
                         className="px-3 py-2 bg-[#a7e0ec] border border-gray-900  focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
-                        autocomplete="off"
+                        autoComplete="off"
                     />
                 </div>
                 <div className="flex flex-col mb-3">

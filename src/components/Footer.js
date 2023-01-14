@@ -6,13 +6,20 @@ export default function Footer(){
          <div className="flex flex-1 flex-row  justify-center content-center w-full  bg-white  m-0 p-10  items-center">
                <div className="  mr-10 text-black font-bold text-sm sm:text-xl sm:w-16 w-5 items-center ">
                     <span 
-                        className="ml-0 p-2 h-3 items-center shadow-2xl mb-6 rounded-full ">C</span>
-                    <span className="ml-1 ">2022</span>
+                        className="ml-0 p-2 h-3 items-center shadow-2xl mb-6 rounded-full "
+                        >
+                        C
+                    </span>
+                    <span className="ml-1 "
+                        >
+                        2022
+                    </span>
                    
                 </div>
                  <img 
                     className=" ml-8 shadow-md sm:w-12 w-6  lg:w-28 bg-cover md:w-8 rounded-lg sm:mr-5"
-                    src="images/DonateWater-logo.jpg" alt="donate water logo"
+                    src="images/DonateWater-logo.jpg" 
+                    alt="donate water logo"
                  />
             
                     <img className="mx-3 md:w-14 sm:w-10 w-6 shadow-md bg-cover" src="images/unicef_logo.png" alt="unicef logo"/>

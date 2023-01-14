@@ -14,7 +14,8 @@ export default function NavBar() {
                             <h2 className="text-2xl font-bold text-white">
                             <img 
                                 className="self-center w-1/2 lg:w-56 sm:w-2/4 rounded-lg"
-                                src="images/DonateWater-logo.jpg" alt="donate water logo"
+                                src="images/DonateWater-logo.jpg" 
+                                alt="donate water logo"
                             />
                             </h2>
                         </a>
