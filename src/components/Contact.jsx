@@ -1,6 +1,21 @@
+import { useState } from "react"
 
 export default function Contact(){
-    
+    const [info, setInfo] = useState({
+        senderName: '',
+        email: '',
+        message: ''
+    })
+
+    const handleChange = (e) => {
+        const { name, value } = e.target 
+        setInfo(prevState => (
+            {...prevState, 
+            [name]: value
+            }
+        ))
+    }
+
     const handleSubmit = (e) => {
        e.preventDefault()
     }
@@ -101,6 +116,9 @@ export default function Contact(){
                          id="name" 
                          className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                          autoComplete="off"
+                         name='senderName'
+                         value={info.senderName}
+                         onChange={handleChange}
                     />
                 </div>
                 <div className="flex flex-col mb-3">
@@ -110,6 +128,9 @@ export default function Contact(){
                          id="email" 
                         className="px-3 py-2 bg-[#a7e0ec] border border-gray-900  focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                         autoComplete="off"
+                        name='email'
+                        value={info.email}
+                        onChange={handleChange}
                     />
                 </div>
                 <div className="flex flex-col mb-3">
@@ -118,6 +139,9 @@ export default function Contact(){
                         rows="4" 
                         id="message" 
                         className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
+                        onChange={handleChange}
+                        name='message'
+                        value={info.message}
                     ></textarea>
                 </div>
             </div>
