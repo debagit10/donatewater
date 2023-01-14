@@ -1,5 +1,9 @@
 
 export default function Contact(){
+    
+    const handleSubmit = (e) => {
+       e.preventDefault()
+    }
     return (
         <>
         <section id="contact" className="relative w-full min-h-screen bg-white text-[#cd0046]">
@@ -84,6 +88,7 @@ export default function Contact(){
             <form 
               action="#"
               className="w-full md:w-1/2 border border-[#cd0046] p-6 bg-white"
+              onSubmit={handleSubmit}
               >
             <h2 className="text-2xl pb-3 font-semibold">
                 Send Message
