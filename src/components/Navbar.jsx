@@ -92,21 +92,21 @@ export default function NavBar() {
                     </div>
                 </div>
                 <ul className="hidden space-x-2 md:inline-block">
-                    <li
+                    <span
                         
                         className="px-4 py-2 text-white bg-[#cd0046] rounded-md shadow hover:bg-[#f15a8d]"
                     >
                       
-                         <Link to="/Contact">Contact</Link>
+                         <Link to="/Contact">Contact us</Link>
                         
                         
-                    </li>
-                    <li
+                    </span>
+                    <span
                         
                         className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
                     >
                         <Link to="/participate">Participate</Link>
-                    </li>
+                    </span>
                 </ul>
             </div>
             
