@@ -126,6 +126,7 @@ export default function Contact(){
                     <input 
                          type="text"
                          id="email" 
+                         required
                         className="px-3 py-2 bg-[#a7e0ec] border border-gray-900  focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                         autoComplete="off"
                         name='email'
@@ -138,6 +139,7 @@ export default function Contact(){
                     <textarea 
                         rows="4" 
                         id="message" 
+                        required
                         className="px-3 py-2 bg-[#a7e0ec] border border-gray-900 focus:outline-none focus:bg-gray-100 focus:border-gray-500 focus:text-black"
                         onChange={handleChange}
                         name='message'
