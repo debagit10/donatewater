@@ -8,11 +8,11 @@ export default function Footer(){
                     <span 
                         className="ml-0 p-2 h-3 items-center shadow-2xl mb-6 rounded-full "
                         >
-                        C
+                         &#x2201;
                     </span>
                     <span className="ml-1 "
                         >
-                        2022
+                        2023
                     </span>
                    
                 </div>
@@ -21,8 +21,10 @@ export default function Footer(){
                     src="images/DonateWater-logo.jpg" 
                     alt="donate water logo"
                  />
-            
-                    <img className="mx-3 md:w-14 sm:w-10 w-6 shadow-md bg-cover" src="images/unicef_logo.png" alt="unicef logo"/>
+                    <small className="mx-2 text-xs sm:text-sm flex-1 w-5 font-mono  sm:h-4">
+                      Supported by Crowd4SDG, CERN, UNITAR, UNIGE
+                    </small>
+                    {/* <img className="mx-3 md:w-14 sm:w-10 w-6 shadow-md bg-cover" src="images/unicef_logo.png" alt="unicef logo"/> */}
                     <img className="mx-3 md:w-24 sm:w-10 w-6 shadow-md bg-cover" src="images/UN_logo.png" alt="UN logo"/>
                     <img className="mx-3 sm:mr-8 sm:w-20 w-6 shadow-md" src="images/waid.png" alt="WAID logo"/>
             
