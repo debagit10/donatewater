@@ -22,9 +22,9 @@ export default function Contact(){
     return (
         <>
         <section id="contact" className="relative w-full min-h-screen bg-white text-[#cd0046]">
-        <h1 className="text-4xl p-4 font-bold tracking-wide">
+        <a href='info@donatewater.ng' className="text-4xl p-4 font-bold tracking-wide">
             Contact Us 
-        </h1>
+        </a>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#2c9fb9] h-32 w-full"></div>
         
        
@@ -67,7 +67,7 @@ export default function Contact(){
                         Linkedin
                 </a>
                 <a 
-                   href="#"
+                   href="info@donatewater.ng"
                    className="flex items-center hover:text-white hover:bg-[#cd0046] p-2"
                    >
                     <svg 
@@ -80,7 +80,8 @@ export default function Contact(){
                         >
                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
                     </svg>
-                    Youtube
+                    
+                    info@donatewater.ng
                 </a>
                 <a 
                    href="https://www.facebook.com/profile.php?id=100069924513582&mibextid=ZbWKwL" 

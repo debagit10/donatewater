@@ -16,7 +16,7 @@ export default function Motto(){
                                 src="images/DonateWater-logo.jpg" alt="donate water logo"
                             /></h1>
                     <p className="text-slate-50  text-xl font-semibold" id="dw-p">
-                        Assessing Women's Vulnerability To Climate Change Effects On Natural Resources
+                    Bringing water to where it's needed most: Clean and accessible for all, year-round
                     </p>
                 </div>
               
