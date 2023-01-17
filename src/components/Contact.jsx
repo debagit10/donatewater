@@ -22,7 +22,7 @@ export default function Contact(){
     return (
         <>
         <section id="contact" className="relative w-full min-h-screen bg-white text-[#cd0046]">
-        <a href='info@donatewater.ng' className="text-4xl p-4 font-bold tracking-wide">
+        <a  className="text-4xl p-4 font-bold tracking-wide">
             Contact Us 
         </a>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#2c9fb9] h-32 w-full"></div>

@@ -12,8 +12,8 @@ export default function SlidePage(){
              alt='image of donatewater team from the crowd4SDG program'
              /> 
            <img 
-             className="w-[370px] h-[200px]  md:w-[500px] md:h-[350px]"
-             src="images/DonateWater-project.jpg"
+             className="w-[400px] h-[200px]  md:w-[500px] md:h-[350px]"
+             src="images/team.png"
               alt="donate water team" />
         </Slide>
          <div className='self-center mt-9'>
