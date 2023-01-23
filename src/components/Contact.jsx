@@ -21,7 +21,7 @@ export default function Contact(){
     }
     return (
         <>
-        <section id="contact" className="relative w-full min-h-screen bg-white text-[#cd0046]">
+        <section id="contact" className="relative pt-8 w-full min-h-screen bg-white text-[#cd0046]">
         <a  className="text-4xl p-4 font-bold tracking-wide">
             Contact Us 
         </a>
